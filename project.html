@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Stock Keeper</title>
+    <link href="https://fonts.googleapis.com/css?family=Arimo|Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./project.css">
+    
+</head>
+<body>
+    <div>
+        <div id="banner">
+            <img src="resources/BANNER.png" alt="">
+        </div>
+        <div id="topDiv">
+            <h1>Nrupul's Cakes and Pastries</h2>
+                
+        </div>
+        <div id="appName">
+                <br>
+            <h1>Bakery Stock Keeping App :</h1>
+        </div>
+        <div id="manageItems">
+            <h1>Manage Items</h1>
+            <select name="" id="boxItems" class="greyBigRounded">
+                <option value="Breads">Bread</option>
+                <option value="Bagels">Bagels</option>
+                <option value="Buns">Buns</option>
+                <option value="Brownies">Brownies</option>
+                <option value="Cakes">Cakes</option>
+                <option value="Cup-Cakes">Cup-Cakes</option>
+                <option value="Pastries">Pastries</option>
+                <option value="Tarts">Tarts</option>
+                <option value="Veg-Puffs">Veg-Puffs</option>
+                <option value="Egg-Puffs">Egg-Puffs</option>
+            </select>
+            <input type="number" id="itemQuantity">
+            <button onclick="addItem()">Add Stock</button>
+            <button onclick="removeItem()">Remove Stock</button>
+            <button onclick="checkStock()">Check Stock</button>
+        </div>
+        <div id="displayItems">
+
+        </div>
+        <!-- <div id="removeItems">
+            <h1>Remove Items</h1>
+        </div> -->
+    </div>
+    <script src="./project.js"></script>
+</body>
+</html>

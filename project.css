@@ -1,0 +1,114 @@
+body {
+    background: linear-gradient(105deg, #FF7043, #DD2C00 75% );
+    height: 1800px;
+}
+
+.greyBigRounded {
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 12px;
+    font-size: 30px;
+    background: rgb(156, 158, 153);
+    box-shadow: 2px 2px 2px 2px;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: 'Arimo', sans-serif;
+}
+
+input {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 45px;
+    width: 100px;
+    padding-left: 10px;
+    border-radius: 12px;
+    font-size: 25px;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+#banner > img {
+    width: 95vw;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+button {
+    margin-left: 10px;
+    height: 50px;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 12px;
+    font-size: 25px;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+#banner {
+    text-align: center;
+}
+
+#topDiv > h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 5.5rem;
+    text-align: center;
+    text-shadow: 5px 8px rgb(151, 2, 2);
+}
+
+#manageItems {
+    margin-left: 11vw;
+}
+
+#topDiv {
+    height: 165px;
+    background: linear-gradient(105deg, #A1887F, #FF8A80 50%, #A1887F);
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 10px;
+}
+
+#appName > h1 {
+    font-family: 'Arimo', sans-serif; 
+    font-size: 3rem;
+    margin-left: 10vw;
+}
+
+br {
+    line-height: 100px;
+}
+
+.runningLow {
+    font-size: 30px !important;
+    margin-left: 25vw;
+}
+
+#displayItems {
+    margin-left: 12vw;
+    margin-top: 10px;
+}
+
+#displayItems li{
+    font-size: 25px;
+}
+
+@media (max-width: 1100px) {
+    #topDiv {
+        height: 200px;
+    }
+
+    #manageItems {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #manageItems {
+        width: 200px;
+    }
+
+    #topDiv > h1 {
+        font-family: 'Pacifico', cursive;
+        font-size: 3.5rem;
+        text-align: center;
+        text-shadow: 5px 8px rgb(151, 2, 2);
+    }
+    
+}
